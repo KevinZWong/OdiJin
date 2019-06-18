@@ -1,0 +1,14 @@
+.jumbotron {
+               background:transparent;
+}
+
+body {
+	color: white;
+	background:linear-gradient(45deg,#001371,#000624,#23a1e0);
+	height: 2000px ;
+}
+
+h1 {
+	margin: 70px;
+}
+
