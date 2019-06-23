@@ -1,0 +1,12 @@
+
+
+         li a {
+            transition-duration: 1s;
+         }
+
+         li:hover {
+          transition-duration: 1s;
+            background-color: #c1c1c1;
+   
+         }
+
