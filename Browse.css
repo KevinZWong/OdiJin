@@ -1,4 +1,12 @@
+.jumbotron {
+               background:transparent;
+}
 
+body {
+  color: white;
+  background:linear-gradient(45deg,#545454,#464646,#8b8b8b);
+  height: 2000px ; 
+}
 
          li a {
             transition-duration: 1s;
