@@ -8,15 +8,39 @@ body {
 	height: 2000px ; 
 
 	
+}
+
+h1 {
+	margin: 50px 20px 20px 70px;
+	font-family: Oswald;
+	font-size: 60px;
+}
+
+h2 {
+	margin: 10px 20px 60px 70px;
+}
+
+
+         li a {
+            transition-duration: 1s;
+         }
+
+         li:hover {
+         	transition-duration: 1s;
+            background-color: #c1c1c1;
+   
+         }
+
+
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,7 +55,7 @@ body {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -39,7 +63,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #aaaaaa;
 }
 
 .dropdown-content {
@@ -67,24 +91,4 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-}
-
-h1 {
-	margin: 50px 20px 20px 70px;
-}
-
-h2 {
-	margin: 10px 20px 60px 70px;
-}
-
-
-         li a {
-            transition-duration: 1s;
-         }
-
-         li:hover {
-         	transition-duration: 1s;
-            background-color: #c1c1c1;
-   
-         }
 
