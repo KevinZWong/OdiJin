@@ -16,8 +16,8 @@ h1 {
 	font-size: 60px;
 }
 
-h2 {
-	margin: 10px 20px 60px 70px;
+.h2heading {
+	margin: 10px 10px 60px 70px;
 }
 
 
@@ -91,4 +91,8 @@ h2 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+  .carousel{
+      max-width: 700px;
+      margin-left: 50px;
+    }
 
