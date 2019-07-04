@@ -1,128 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <title>Bootstrap: Dropdown on Hover Plugin Demo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <meta name="description" content="A demo for my simple plugin that enables Bootstrap dropdowns to activate on hover and provide a nice user experience.">
-  <meta name="author" content="Cameron Spear">
-
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-
-  <style type="text/css">
-    body { padding-top: 70px; min-height: 410px }
-    .tab-content p { padding: 10px 0; }
-  </style>
-
-  <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <header class="navbar navbar-fixed-top navbar-inverse">
-    <div class="container">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="http://cameronspear.com/blog/bootstrap-dropdown-on-hover-plugin/">Plugin Demo</a>
-      <div class="navbar-collapse nav-collapse collapse navbar-header">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle js-activated">Dropdown <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Dropdown header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">I Have a Submenu <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a tabindex="-1" href="#">Menu Item</a></li>
-              <li><a tabindex="-1" href="#">Bootstrap 3 Does Not Support Submenus</a></li>
-<!--               
-              BOOTSTRAP 3 DOES NOT SUPPORT SUBMENUS: https://github.com/twbs/bootstrap/pull/6342#issuecomment-11594010
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">I Am Said Submenu</a>
-                <ul class="dropdown-menu">
-                  <li><a tabindex="-1" href="#">Why Would</a></li>
-                  <li><a tabindex="-1" href="#">A Home Tab</a></li>
-                  <li><a tabindex="-1" href="#">Have Dropdowns?</a></li>
-                  <li class="dropdown-submenu">
-                    <a href="#">One More Time! <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a tabindex="-1" href="#">Menu Item 1</a></li>
-                      <li><a tabindex="-1" href="#">Menu Item Blue</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>    
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">Got Hover Dropdowns?</a>
-                <ul class="dropdown-menu">
-                  <li><a tabindex="-1" href="#">Why Would</a></li>
-                  <li><a tabindex="-1" href="#">A Home Tab</a></li>
-                  <li><a tabindex="-1" href="#">Have Dropdowns?</a></li>
-                  <li class="dropdown-submenu">
-                    <a href="#">One More Time! <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a tabindex="-1" href="#">Menu Item 1</a></li>
-                      <li><a tabindex="-1" href="#">Menu Item Blue</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
--->
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Account <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a tabindex="-1" href="#">My Account</a></li>
-              <li class="divider"></li>
-              <li><a tabindex="-1" href="#">Change Email</a></li>
-              <li><a tabindex="-1" href="#">Change Password</a></li>
-              <li class="divider"></li>
-              <li><a tabindex="-1" href="#">Logout</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Contact <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a tabindex="-1" href="#">Contact</a></li>
-              <li><a tabindex="-1" href="#">Contact My Mom</a></li>
-              <li class="divider"></li>
-              <li><a tabindex="-1" href="#">Contact Your Mom</a></li>
-              <li><a tabindex="-1" href="#">Contact the President</a></li>
-            </ul>
-          </li>
 
-        </ul>
-      </div> <!-- .nav-collapse -->
-    </div> <!-- .container -->
-  </header> <!-- .navbar -->
+<div class="container-fluid">
 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/image2.jpg" alt="Los Angeles" style="width: 100%">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/image3.jpg" alt="Chicago" style="width: 100%">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/image4.jpg" alt="New York" style="width: 100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 
+      </div>
+      <div class="col-sm bg-warning">2 of 2</div>
+    </div>  
+  </div>
+  <br>
   
 
-  <!-- latest jQuery, Boostrap JS and hover dropdown plugin -->
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  <script src="bootstrap-hover-dropdown.js"></script>
-
-  <script>
-    // very simple to use!
-    $(document).ready(function() {
-      $('.js-activated').dropdownHover().dropdown();
-    });
-  </script>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm bg-success">1 of 4</div>
+      <div class="col-sm bg-warning">2 of 4</div>
+      <div class="col-sm bg-success">3 of 4</div>
+      <div class="col-sm bg-warning">4 of 4</div>
+    </div>  
+  </div>
+</div>
 
 </body>
 </html>

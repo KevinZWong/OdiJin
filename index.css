@@ -1,0 +1,18 @@
+body{
+  	background:linear-gradient(45deg,#001371,#000624,#23a1e0);
+  	height: 2000px;
+}
+
+.jumbotron{
+	background-color: transparent;
+}
+
+h1{
+	color: white;
+	font-size: 70px;
+	font-family: Bai Jamjuree;
+}
+
+p{
+	color: white;
+}
