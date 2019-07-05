@@ -16,3 +16,17 @@ h1{
 p{
 	color: white;
 }
+
+.picturebox{
+  width: 320px;
+  margin: 10;
+  border: 15px solid transparent;
+  padding: 20px;
+}
+
+.descriptionbox{
+  width: 320px;
+  margin: 10;
+  border: 15px solid transparent;
+  padding: 20px;	
+}
