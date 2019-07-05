@@ -1,6 +1,7 @@
 body{
   	background:linear-gradient(75deg,#001371,#000624,#23a1e0);
   	height: 100%;
+  	color:white;
 }
 
 .jumbotron{
