@@ -1,6 +1,8 @@
 body{
-  	background:linear-gradient(75deg,#001371,#000624,#23a1e0);
-  	height: 2070px;
+  	background-image: url("./img/Background.jpg");
+  	background-size: 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
   	color:white;
 }
 
@@ -13,7 +15,7 @@ h1{
 	text-shadow: 10px;
 	font-size: 70px;
 	font-family: Bai Jamjuree;
-	padding: 10px 20px 15px 20px;
+	padding: 10px 20px -15px 20px;
 }
 
 p{
@@ -24,11 +26,9 @@ p{
 }
 
 .picturebox{
-  width: 320px;
-  margin: 10px;
-  border: 15px solid transparent;
-  padding: 20px;
+  width: 100%;
 }
+
 
 .descriptionbox{
   width: 320px;
@@ -41,7 +41,7 @@ p{
 }
 
 h2{
-  padding-bottom: 5px;
+  color: white;
   font-size: 50px; 
   font-family: Acme;
 }
@@ -54,4 +54,37 @@ p{
 	font-size: 15px;
 	text-align: center;
 	padding-bottom: 25px;
+}
+
+.navbar{
+	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+
+}
+
+.carousel{
+	margin-top: 50px;
+	max-width: 60%;
+	margin-left: 20%;
+}
+
+.container{
+	text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 30px 50px 50px 50px;
+  transition: transform 1s;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
 }
