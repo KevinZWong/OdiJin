@@ -1,6 +1,5 @@
 body{
     background-image: url("./img/Background/Background.jpg");
-    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white;
@@ -58,7 +57,6 @@ p{
 
 .navbar{
   background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
-
 }
 
 .carousel{
