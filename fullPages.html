@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- The following codes are the bootstrap4 framework  -->
+    <!-- Don't change -->
+    <title>OdiJinPhotography</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- this line links the fullPages.css file -->
+    <link rel="stylesheet" type="text/css" href="fullPages.css">
+
+  </head>
+
+  <body>
+
+    <!-- This block of code will trigger when you click the tabs -->
+    <!-- It will then trigger the javascript function: openPage() -->
+    <button class="tablink" onclick="openPage('BIO', this, 'red')">BIO</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+    <!-- This block of codes are for the 1st level, 1st tab -->
+    <div id="BIO" class="tabcontent1">
+      <h3>Home</h3>
+      <p>Home is where the heart is..</p>
+    </div>
+
+    <!-- This block of codes are for the 1st level, 2nd tab -->
+    <div id="News" class="tabcontent1">
+
+      <!-- This block of code will trigger when you click the 2nd level tabs -->
+      <!-- It will then trigger the javascript function: openPage2() -->
+      <button class="tablink" onclick="openPage2('Home2', this, 'red')">Home2</button>
+      <button class="tablink" onclick="openPage2('News2', this, 'green')" id="defaultOpen">News2</button>
+      <button class="tablink" onclick="openPage2('Contact2', this, 'blue')">Contact2</button>
+      <button class="tablink" onclick="openPage2('About22', this, 'orange')">About2</button>
+
+      <!-- This block of codes are for the 2nd level, 1st tab -->
+      <div id="Home2" class="tabcontent2">
+        <h3>Home2</h3>
+        <p>Home2 is where the heart is..</p>
+      </div>
+
+      <!-- This block of codes are for the 2nd level, 2nd tab -->
+      <div id="News2" class="tabcontent2">
+        <h3>News2</h3>
+        <p>Some2 news this fine day!</p> 
+      </div>
+
+      <!-- This block of codes are for the 2nd level, 3rd tab -->
+      <div id="Contact2" class="tabcontent2">
+        <h3>Contact2</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+      </div>
+
+      <!-- This block of codes are for the 2nd level, 4th tab -->
+      <div id="About22" class="tabcontent2">
+        <h3>About2</h3>
+        <p>Who we are and what we do.</p>
+      </div>
+
+      <!-- This block of code are use to connect to the javascript for 2nd tabs 
+      <script type = "text/javascript" src = "fullPages.js" >
+        // Get the element with id="defaultOpen" and click on it
+        //document.getElementById("defaultOpen").click();      
+      </script>
+      -->
+   
+    </div>
+
+    <!-- This block of codes are for the 1st level, 3rd tab -->
+    <div id="Contact" class="tabcontent1">
+      <h3>Contact</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+
+    <!-- This block of codes are for the 1st level, 4th tab -->
+    <div id="About" class="tabcontent1">
+      <h3>About</h3>
+      <p>Who we are and what we do.</p>
+    </div>
+
+    <!-- This block of code are use to connect to the javascript for 1st tabs -->
+    <script type = "text/javascript" src = "fullPages.js" >
+      // Get the element with id="defaultOpen" and click on it
+      //document.getElementById("defaultOpen").click();      
+    </script>
+     
+  </body>
+</html> 

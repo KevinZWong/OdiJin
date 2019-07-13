@@ -1,0 +1,61 @@
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+/* this covers the whole page, but at the bottom */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Tab links style, it controls default color of the tab */
+/* this class is for both tab levels */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Tab links style, it controls color of the tab when mouse hover over */
+/* it is for both tab levels */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* this class controls 1st Level tab's contents */
+/* Style the tab content (and add height:100% for full page content) */
+/* The padding: 50px 0px; controls the space distance between the level1 & level2 */
+.tabcontent1 {
+  color: white;
+  display: none;
+  padding: 55px 0px;
+  height: 100%;
+}
+
+/* this class controls 2nd Level tab's contents */
+.tabcontent2 {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+/* those ID controls the backgroud color of the tabs */
+#BIO {background-image: url("./img/background/background.jpg");}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
+#Home2 {background-color: pink;}
+#News2 {background-color: darkgreen;}
+#Contact2 {background-color: skyblue;}
+#About22 {background-color: purple;}
+
+</style>
