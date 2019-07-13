@@ -1,0 +1,116 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+
+h1{
+  color: #e1e1e1;
+  text-shadow: 10px;
+  font-size: 70px;
+  font-family: Bai Jamjuree;
+  padding: 10px 20px -15px 20px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: -30px;
+}
+
+.picturebox{
+  width: 100%;
+}
+
+h2{
+  color: white;
+  font-size: 50px; 
+  font-family: Acme;
+}
+
+p{
+  font-size: 25px;
+}
+
+.copyright{
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.navbar{
+  background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+}
+
+.carousel{
+  margin-top: 50px;
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.container{
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 30px 50px 50px 50px;
+  transition: transform 1s;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-image: url(./img/Background/background.jpg);}
+#News {background-color: blue}
+#Contact {background-image: url(./img/Background/bg3.jpg);}
+#About {background-image: url(./img/Background/bg3.jpg);}
