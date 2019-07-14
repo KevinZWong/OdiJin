@@ -22,7 +22,7 @@
     <!-- This block of code will trigger when you click the tabs -->
     <!-- It will then trigger the javascript function: openPage() -->
     <button class="tablink" onclick="openPage('BIO', this, 'red')">BIO</button>
-    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+    <button class="tablink" onclick="openPage('Interview', this, 'green')" id="defaultOpen">Interview</button>
     <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
     <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
@@ -30,10 +30,11 @@
     <div id="BIO" class="tabcontent1">
       <h3>Home</h3>
       <p>Home is where the heart is..</p>
+      <h1>wekusdgbiuze</h1>
     </div>
 
     <!-- This block of codes are for the 1st level, 2nd tab -->
-    <div id="News" class="tabcontent1">
+    <div id="Interview" class="tabcontent1">
 
       <!-- This block of code will trigger when you click the 2nd level tabs -->
       <!-- It will then trigger the javascript function: openPage2() -->
@@ -77,12 +78,81 @@
 
     <!-- This block of codes are for the 1st level, 3rd tab -->
     <div id="Contact" class="tabcontent1">
-      <h3>Contact</h3>
-      <p>Get in touch, or swing by for a cup of coffee.</p>
+
+  <div class="container">
+  <div class="jumbotron">
+    <h1>OdiJinPhotography</h1>      
+    <p>Boston Website & Commercial</p>
+  </div>   
+</div>
+
+  <!--rows that contain the image sliders and text-->
+<div class="container-fluid">
+
+  <div class="row">
+    <!--first colum row one-->
+    <div class="col-sm picturebox">
+      <!--Image slider-->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/group1/odi1.png" alt="Los Angeles"  style="width: 100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/group1/odi2.png" alt="Chicago" style="width: 100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/group1/odi3.png" alt="New York" style="width: 100%">
+          </div>
+        </div>
+
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>  
+
+
+  <br>
+  <div class="container">
+    <div class="row">
+     <div class="col-sm-6">
+                      <h2>Commercial</h2>
+                       <a href="test.html">
+                 <img src="./img/Commercial/Commercial.png" alt="Commercial" class="mx-auto d-block zoom" alt="Avatar">
+     </div>
+     <div class="col-sm-6">
+                <h2>Wedding</h2>
+                       <a href="index.html">
+                 <img src="./img/Wedding.PNG" alt="Wedding" class="mx-auto d-block zoom" alt="Avatar">
+      </div>
+   </div>
+  </div>
+<p class="copyright">
+   © 2019 Odi Jin Photography. All rights reserved
+</p>
+
+
     </div>
 
     <!-- This block of codes are for the 1st level, 4th tab -->
-    <div id="About" class="tabcontent1">
+    <div id="About" class="tabcontent1"> 
       <h3>About</h3>
       <p>Who we are and what we do.</p>
     </div>

@@ -1,4 +1,4 @@
-<style>
+
 * {box-sizing: border-box}
 
 /* Set height of body and the document to 100% */
@@ -7,6 +7,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
+  background-attachment: fixed;
 }
 
 /* Tab links style, it controls default color of the tab */
@@ -36,7 +37,8 @@ body, html {
   color: white;
   display: none;
   padding: 55px 0px;
-  height: 100%;
+  height: 200%;
+  background-attachment: fixed;
 }
 
 /* this class controls 2nd Level tab's contents */
@@ -44,18 +46,106 @@ body, html {
   color: white;
   display: none;
   padding: 100px 20px;
-  height: 100%;
+  height: 110%;
+  background-attachment: fixed;
 }
 
 /* those ID controls the backgroud color of the tabs */
 #BIO {background-image: url("./img/background/background.jpg");}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Interview {background-image: url("./img/background/background2.jpg");}
+#Contact {background-image: url("./img/background/bg5.jpg");}
+#About {background-image: url("./img/background/bg4.jpg");}
 
-#Home2 {background-color: pink;}
-#News2 {background-color: darkgreen;}
-#Contact2 {background-color: skyblue;}
-#About22 {background-color: purple;}
+#Home2 {background-image: url("./img/background/bg5.jpg");}
+#News2 {background-image: url("./img/background/bg6.jpg");}
+#Contact2 {background-image: url("./img/background/bg7.jpg");}
+#About22 {background-image: url("./img/background/bg8.jpg");}
 
-</style>
+
+
+
+.jumbotron{
+  background-color: transparent;
+}
+
+h1{
+  color: #e1e1e1;
+  text-shadow: 10px;
+  font-size: 70px;
+  font-family: Bai Jamjuree;
+  padding: 10px 20px -15px 20px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: -30px;
+}
+
+.picturebox{
+  width: 100%;
+}
+
+
+.descriptionbox{
+  width: 320px;
+  margin: 10px;
+  border: 15px solid transparent;
+  padding: 20px;
+  color: white; 
+  text-align: center;
+  font-family: Acme;
+}
+
+h2{
+  color: white;
+  font-size: 50px; 
+  font-family: Acme;
+}
+
+p{
+  font-size: 25px;
+}
+
+.copyright{
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.navbar{
+  background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+}
+
+.carousel{
+  margin-top: 50px;
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.container{
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 30px 50px 50px 50px;
+  transition: transform 1s;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+img {
+  border-radius: 50%;
+}
