@@ -8,6 +8,7 @@ body, html {
   margin: 0;
   font-family: Arial;
   background-attachment: fixed;
+  
 }
 
 /* Tab links style, it controls default color of the tab */
@@ -146,6 +147,6 @@ p{
   transform: scale(1.2); 
 }
 
-img {
+#mainimg{
   border-radius: 50%;
 }
