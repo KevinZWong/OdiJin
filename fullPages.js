@@ -28,4 +28,9 @@ function openPage2(pageName,elmnt,color) {
   elmnt.style.backgroundColor = color;
 }
 
+function myFunction() {
+  alert("Hello guowong! I am an alert box!");
+}
+
+
 document.getElementById("defaultOpen").click();
