@@ -18,22 +18,31 @@
   </head>
 
   <body>
-<!--###################################################################################-->
+<!--################################### Start Tabs ################################################-->
     <!-- This block of code will trigger when you click the tabs -->
     <!-- It will then trigger the javascript function: openPage() -->
+    <!-- use id="defaultOpen" to specify which tab starts first -->
     <button class="tablink" onclick="openPage('BIO', this, 'red')">BIO</button>
-    <button class="tablink" onclick="openPage('Interview', this, 'green')" id="defaultOpen">Interview</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
-<!--###################################################################################-->
+    <button class="tablink" onclick="openPage('INTERVIEW', this, 'green')">INTERVIEW</button>
+    <button class="tablink" onclick="openPage('PORTFOLIO', this, 'green')" id="defaultOpen">PORTFOLIO</button>
+    <button class="tablink" onclick="openPage('SLIDESHOW', this, 'blue')">SLIDESHOW</button>
+  
+<!--##################################### 1st Tab => BIO #########################################-->
     <!-- This block of codes are for the 1st level, 1st tab -->
     <div id="BIO" class="tabcontent1">
       <h3>Home</h3>
       <p>Home is where the heart is..</p>
     </div>
-<!--###################################################################################-->
+<!--###################################### 2nd Tab => INTERVIEW #################################-->
     <!-- This block of codes are for the 1st level, 2nd tab -->
-    <div id="Interview" class="tabcontent1">
+    <div id="INTERVIEW" class="tabcontent1">
+      <h3>Home</h3>
+      <p>Home is where the heart is..</p>
+    </div>
+
+<!--###################################### 3rd Tab => PORTFOLIO #################################-->
+    <!-- This block of codes are for the 1st level, 3rd tab -->    
+    <div id="PORTFOLIO" class="tabcontent1">
 
       <!-- This block of code will trigger when you click the 2nd level tabs -->
       <!-- It will then trigger the javascript function: openPage2() -->
@@ -66,9 +75,10 @@
         <p>Who we are and what we do.</p>
       </div>
     </div>
+
 <!--############################################################################-->
-    <!-- This block of codes are for the 1st level, 3rd tab -->
-    <div id="Contact" class="tabcontent1">
+    <!-- This block of codes are for the 1st level, 4rd tab -->
+    <div id="SLIDESHOW" class="tabcontent1">
       <div class="container">
         <div class="jumbotron">
           <h1>OdiJinPhotography</h1>      
@@ -138,11 +148,8 @@
       </p>
     </div>
 
-    <!-- This block of codes are for the 1st level, 4th tab -->
-    <div id="About" class="tabcontent1"> 
-      <h3>About</h3>
-      <p>Who we are and what we do.</p>
-    </div>
+
+
 <!--###################################################################################-->
     <!-- This block of code are use to connect to the javascript for 1st tabs -->
     <script type = "text/javascript" src = "fullPages.js" >     
