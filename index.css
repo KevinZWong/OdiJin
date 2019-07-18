@@ -1,27 +1,89 @@
-body{
-  	background-image: url("./img/Background/Background.jpg");
-  	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	color:white;
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+/* this covers the whole page, but at the bottom */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-attachment: fixed;
+  
 }
 
+/* Tab links style, it controls default color of the tab */
+/* this class is for both tab levels */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 16.666666666666666666666666666666666666666666666666666666666666666666%;
+}
+
+/* Tab links style, it controls color of the tab when mouse hover over */
+/* it is for both tab levels */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* this class controls 1st Level tab's contents */
+/* Style the tab content (and add height:100% for full page content) */
+/* The padding: 50px 0px; controls the space distance between the level1 & level2 */
+.tabcontent1 {
+  color: white;
+  display: none;
+  padding: 55px 0px;
+  height: 200%;
+  background-attachment: fixed;
+}
+
+/* this class controls 2nd Level tab's contents */
+.tabcontent2 {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 110%;
+  background-attachment: fixed;
+}
+
+/* those ID controls the backgroud color of the tabs */
+#BIO {background-image: url("./img/background/background.jpg");+}
+#INTERVIEW {background-image: url("./img/background/background2.jpg");}
+#PORTFOLIO {background-image: url("./img/background/bg5.jpg");}
+#SLIDESHOW {background-image: url("./img/background/bg4.jpg");}
+#NEWS {background-image: url("./img/background/bg9.jpg");}
+#CONTACT {background-image: url("./img/background/bg8.jpg");}
+
+#Home2 {background-image: url("./img/background/bg5.jpg");}
+#News2 {background-image: url("./img/background/bg6.jpg");}
+#Contact2 {background-image: url("./img/background/bg7.jpg");}
+#About22 {background-image: url("./img/background/bg8.jpg");}
+
+
+
+
 .jumbotron{
-	background-color: transparent;
+  background-color: transparent;
 }
 
 h1{
-	color: #e1e1e1;
-	text-shadow: 10px;
-	font-size: 70px;
-	font-family: Bai Jamjuree;
-	padding: 10px 20px -15px 20px;
+  color: #e1e1e1;
+  text-shadow: 10px;
+  font-size: 70px;
+  font-family: Bai Jamjuree;
+  padding: 10px 20px -15px 20px;
 }
 
 p{
-	color: white;
-	font-size: 20px;
-	padding-left: 20px;
-	margin-bottom: -30px;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: -30px;
 }
 
 .picturebox{
@@ -34,7 +96,7 @@ p{
   margin: 10px;
   border: 15px solid transparent;
   padding: 20px;
-  color: white;	
+  color: white; 
   text-align: center;
   font-family: Acme;
 }
@@ -46,27 +108,27 @@ h2{
 }
 
 p{
-	font-size: 25px;
+  font-size: 25px;
 }
 
 .copyright{
-	font-size: 15px;
-	text-align: center;
-	padding-bottom: 25px;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .navbar{
-	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+  background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
 }
 
 .carousel{
-	margin-top: 50px;
-	max-width: 60%;
-	margin-left: 20%;
+  margin-top: 50px;
+  max-width: 60%;
+  margin-left: 20%;
 }
 
 .container{
-	text-align: center;
+  text-align: center;
 }
 
 * {
@@ -85,4 +147,8 @@ p{
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
+}
+
+#mainimg{
+  border-radius: 50%;
 }
