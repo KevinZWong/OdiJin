@@ -52,7 +52,7 @@ body, html {
 }
 
 /* those ID controls the backgroud color of the tabs */
-#BIO {background-image: url("./img/background/background.jpg");}
+#BIO {background-image: url("./img/background/background.jpg");+}
 #Interview {background-image: url("./img/background/background2.jpg");}
 #Contact {background-image: url("./img/background/bg5.jpg");}
 #About {background-image: url("./img/background/bg4.jpg");}
