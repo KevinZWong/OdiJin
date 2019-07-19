@@ -52,17 +52,17 @@ body, html {
 }
 
 /* those ID controls the backgroud color of the tabs */
-#BIO {background-image: url("./img/background/background.jpg");+}
-#INTERVIEW {background-image: url("./img/background/background2.jpg");}
-#PORTFOLIO {background-image: url("./img/background/bg5.jpg");}
-#SLIDESHOW {background-image: url("./img/background/bg4.jpg");}
-#NEWS {background-image: url("./img/background/bg9.jpg");}
-#CONTACT {background-image: url("./img/background/bg8.jpg");}
+#BIO {background-image: url("./img/background/bg-BIO.jpg");+}
+#INTERVIEW {background-image: url("./img/background/bg-INTERVIEW.jpg");}
+#PORTFOLIO {background-image: url("./img/background/bg-PORTFOLIOFashion.jpg");}
+#SLIDESHOW {background-image: url("./img/background/bg-SLIDESHOW.jpg");}
+#NEWS {background-image: url("./img/background/bg-NEWS.jpg");}
+#CONTACT {background-image: url("./img/background/bg-CONTACT.jpg");}
 
-#Fashion {background-image: url("./img/background/bg5.jpg");}
-#Wedding {background-image: url("./img/background/bg6.jpg");}
-#FineArt {background-image: url("./img/background/bg7.jpg");}
-#Videos {background-image: url("./img/background/bg8.jpg");}
+#Fashion {background-image: url("./img/background/bg-Fashion.jpg");}
+#Wedding {background-image: url("./img/background/bg-Wedding.jpg");}
+#FineArt {background-image: url("./img/background/bg-FineArt.jpg");}
+#Videos {background-image: url("./img/background/bg-Videos.jpg");}
 
 
 
