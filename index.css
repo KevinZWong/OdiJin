@@ -52,14 +52,14 @@ body, html {
 }
 
 /* those ID controls the backgroud color of the tabs */
-#BIO {background-image: url("./img/background/bg-BIO.jpg");+}
+#BIO {background-image: url("./img/background/bg-BIO.jpg");}
 #INTERVIEW {background-image: url("./img/background/bg-INTERVIEW.jpg");}
 #PORTFOLIO {background-image: url("./img/background/bg-PORTFOLIOFashion.jpg");}
 #SLIDESHOW {background-image: url("./img/background/bg-SLIDESHOW.jpg");}
 #NEWS {background-image: url("./img/background/bg-NEWS.jpg");}
 #CONTACT {background-image: url("./img/background/bg-CONTACT.jpg");}
 
-#Fashion {background-image: url("./img/background/bg-Fashion.jpg");}
+#Fashion {background-image: url("./img/background/bg-PORTFOLIOFashion.jpg");}
 #Wedding {background-image: url("./img/background/bg-Wedding.jpg");}
 #FineArt {background-image: url("./img/background/bg-FineArt.jpg");}
 #Videos {background-image: url("./img/background/bg-Videos.jpg");}
