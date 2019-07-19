@@ -1,87 +1,43 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    
-    <!-- Web site Title  -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.background {
+  background-image: url("./img/background/bg-BIO.jpg");
+  background-attachment: fixed;
+  border: 1px solid black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
 
-    <title>Odi Jin Photography</title>
-        
-        <meta name="description" content="Odi Jin brings a trendsetting lens to modern people who love the taste of life and follow their dreams: combining art and fashion to give you a stylish signature that will define your place and time" />
-  <meta name="keywords" content="photo, fashion photography, boston fashion photography, art, clothing, urban, wedding photography, boston wedding, photography, fine art, commercial photography, boston commercial photography, best commercial photography boston, best commercial photographer boston, new england, new york city wedding photography, glamor photography, magazine photography, advertisement photography, poster, print, engagement photography, bridal photography, portrait photography, commercial photography, professional photography, baby photography, family photography, child photography, children photography, maternity photography, editorial photography, erotic photography, hair photography, make up photography, lifestyle photography, lingerie photography, boudoir photography, performance art photography, pinup photography, promotional photography, modeling photography, runway photography, nightlife photography, swimwear photography, advertisement photography, graduation photography, nude photography" />
-    <meta name="author" content="odi jin, odijin, odi, jin" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <!-- set the paths to the javascript files -->
-    <script type="text/javascript" src="script/swfobject.js"></script>
-    <script type="text/javascript" src="script/swfaddress.js"></script>
+div.transbox {
+  padding: 100px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
 
-    
-    <script type="text/javascript">
-      var flashvars = {};
-      
-      // set the path of the configure.xml file
-      flashvars.configXML = "configure_site.xml";
-      // set the path of the background pattern
-      flashvars.bgPattern = "bgpattern.png";
-      
-      var params = {};
-      params.quality = "high";
-      params.scale = "noscale";
-      params.menu = "false";
-      params.salign = "tl";
-      params.wmode = "window";
-      params.bgcolor = "#333333";
-      params.devicefont = "true";
-      params.allowfullscreen = "true";
-      params.allowscriptaccess = "always";
-      var attributes = {};
-      attributes.id = "feel";
-      attributes.name = "feel";
-  
-      swfobject.embedSWF("feel_home.swf", "alternativeContent", "100%", "100%", "9.0.0", "script/expressinstall.swf", flashvars, params, attributes);
-      
-    </script> 
-  
-    <!-- set style  -->
-    <style type="text/css">
-      html {
-        overflow:auto;
-      }
-      body { 
-        background-color: #333333;
-        height: 100%; 
-        width:100%; 
-        margin: 0; 
-        overflow:auto;
-      }
-      #minimumWindowSize {
-        min-width: 800px;
-        min-height: 700px;
-        width: 100%;
-        height: 100%;
+img{
+  filter: opacity(-1);
+}
 
-        width: expression( Math.max( document.body.clientWidth,800 ) + "px" );
-        height: expression( Math.max(document.body.clientHeight, 700 ) + "px" );
-      }
-      
-      #feel {
-        outline: none;
-      }
-      
-    </style>
-    
-  </head>
+div.transbox{
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
 
-  <body>
-  
-    <div id="minimumWindowSize">
-      <div id="alternativeContent">
-    
-        <!-- If flash is not install in browser then the alternative html content will display -->
-    
-        <a href="http://www.adobe.com/go/getflashplayer">
-          <img border="0" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-        </a>
-      </div>
-    </div>
-  </body>
+<div class="background">
+  <div class="transbox">
+       <img src="./img/BIOpic.jpg">
+  </div>
+</div>
+
+</body>
 </html>

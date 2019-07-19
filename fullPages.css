@@ -4,6 +4,7 @@
 /* Set height of body and the document to 100% */
 /* this covers the whole page, but at the bottom */
 body, html {
+  width: 100%;
   height: 100%;
   margin: 0;
   font-family: Arial;
@@ -38,7 +39,7 @@ body, html {
   color: white;
   display: none;
   padding: 55px 0px;
-  height: 200%;
+  height: 100%;
   background-attachment: fixed;
 }
 
@@ -52,7 +53,7 @@ body, html {
 }
 
 /* those ID controls the backgroud color of the tabs */
-#BIO {background-image: url("./img/background/bg-BIO.jpg");+}
+#BIO {background-image: url("./img/background/bg3.jpg");}
 #INTERVIEW {background-image: url("./img/background/bg-INTERVIEW.jpg");}
 #PORTFOLIO {background-image: url("./img/background/bg-PORTFOLIOFashion.jpg");}
 #SLIDESHOW {background-image: url("./img/background/bg-SLIDESHOW.jpg");}
