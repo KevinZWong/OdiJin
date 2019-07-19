@@ -18,7 +18,7 @@
   </head>
 
   <body>
-<!--################################### Start Tabs ################################################-->
+    <!--############################### Start Tabs ################################################-->
     <!-- This block of code will trigger when you click the tabs -->
     <!-- It will then trigger the javascript function: openPage() -->
     <!-- use id="defaultOpen" to specify which tab starts first -->
@@ -28,66 +28,58 @@
     <button class="tablink" onclick="openPage('SLIDESHOW', this, 'light grey')" id="defaultOpen">SLIDESHOW</button>
     <button class="tablink" onclick="openPage('NEWS', this, 'light grey')">NEWS</button>
     <button class="tablink" onclick="openPage('CONTACT', this, 'light grey')">CONTACT</button>
-<!--##################################### 1st Tab => BIO #########################################-->
+
+    <!--################################ 1st Tab => BIO #########################################-->
     <!-- This block of codes are for the 1st level, 1st tab -->
     <div id="BIO" class="tabcontent1">
       <h3>Home</h3>
       <p>Home is where the heart is..</p>
     </div>
-<!--###################################### 2nd Tab => INTERVIEW #################################-->
+
+    <!--################################ 2nd Tab => INTERVIEW #################################-->
     <!-- This block of codes are for the 1st level, 2nd tab -->
     <div id="INTERVIEW" class="tabcontent1">
       <h3>Home</h3>
       <p>Home is where the heart is..</p>
     </div>
 
-    <div id="NEWS" class="tabcontent1">
-      <h3>Contact</h3>
-      <p>Get in touch, or swing by for a cup of coffee.</p>
+    <!--################################# 3rd Tab => PORTFOLIO #################################-->
+    <!-- This block of codes are for the 1st level, 3rd tab -->    
+    <div id="PORTFOLIO" class="tabcontent1">
+
+      <!-- This block of code will trigger when you click the 2nd level tabs -->
+      <!-- It will then trigger the javascript function: openPage2() -->
+      <button class="tablink" onclick="openPage2('Fashion', this, 'light grey')">Fashion</button>
+      <button class="tablink" onclick="openPage2('Wedding', this, 'light grey')" id="defaultOpen">Wedding</button>
+      <button class="tablink" onclick="openPage2('Fine Art', this, 'light grey')">Fine Art</button>
+      <button class="tablink" onclick="openPage2('Videos', this, 'light grey')">Videos</button>
+
+      <!-- ====================== 3rd Tab & 1st subtab: Fashion =================== -->
+      <div id="Fashion" class="tabcontent2">
+        <h3>Fashion</h3>
+        <p>Home2 is where the heart is..</p>
+      </div>
+
+      <!-- ====================== 3rd Tab & 2nd subtab: Wedding =================== -->
+      <div id="Wedding" class="tabcontent2">
+        <h3>Wedding</h3>
+        <p>Some2 news this fine day!</p> 
+      </div>
+
+      <!-- ====================== 3rd Tab & 3rd subtab: FineArt =================== -->
+      <div id="FineArt" class="tabcontent2">
+        <h3>Fine Art</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+      </div>
+
+      <!-- ====================== 3rd Tab & 4th subtab: Videos =================== -->
+      <div id="Videos" class="tabcontent2">
+        <h3>Videos</h3>
+        <p>Who we are and what we do.</p>
+      </div>
     </div>
 
-    <div id="CONTACT" class="tabcontent1">
-      <h3>Contact</h3>
-      <p>Get in touch, or swing by for a cup of coffee.</p>
-    </div>
-
-<!--###################################### 3rd Tab => PORTFOLIO #################################-->
-             <!-- This block of codes are for the 1st level, 3rd tab -->    
-             <div id="PORTFOLIO" class="tabcontent1">
-
-                <!-- This block of code will trigger when you click the 2nd level tabs -->
-                <!-- It will then trigger the javascript function: openPage2() -->
-                <button class="tablink" onclick="openPage2('Fashion', this, 'light grey')">Fashion</button>
-                <button class="tablink" onclick="openPage2('Wedding', this, 'light grey')" id="defaultOpen">Wedding</button>
-                <button class="tablink" onclick="openPage2('Fine Art', this, 'light grey')">Fine Art</button>
-                <button class="tablink" onclick="openPage2('Videos', this, 'light grey')">Videos</button>
-          
-                <!-- This block of codes are for the 2nd level, 1st tab -->
-                <div id="Fashion" class="tabcontent2">
-                  <h3>Fashion</h3>
-                  <p>Home2 is where the heart is..</p>
-                </div>
-          
-                <!-- This block of codes are for the 2nd level, 2nd tab -->
-                <div id="Wedding" class="tabcontent2">
-                  <h3>Wedding</h3>
-                  <p>Some2 news this fine day!</p> 
-                </div>
-          
-                <!-- This block of codes are for the 2nd level, 3rd tab -->
-                <div id="FineArt" class="tabcontent2">
-                  <h3>Fine Art</h3>
-                  <p>Get in touch, or swing by for a cup of coffee.</p>
-                </div>
-          
-                <!-- This block of codes are for the 2nd level, 4th tab -->
-                <div id="Videos" class="tabcontent2">
-                  <h3>Videos</h3>
-                  <p>Who we are and what we do.</p>
-                </div>
-              </div>
-
-<!--############################################################################-->
+    <!--#################################### 4th Tab => SLIDESHOW ##################################-->
     <!-- This block of codes are for the 1st level, 4rd tab -->
     <div id="SLIDESHOW" class="tabcontent1">
       <div class="container">
@@ -96,7 +88,8 @@
           <p>Boston Website & Commercial</p>
         </div>   
       </div>
-<!--##############################################################################-->
+
+      <!-- ====================== 4th Tab & 1st Slideshow =================== -->
       <!--rows that contain the image sliders and text-->
       <div class="container-fluid">
 
@@ -135,36 +128,48 @@
               </a>
             </div>
           </div>
-        </div>  
-<!--###################################################################################-->
-        <br>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <h2>Commercial</h2>
-                <a onclick="myFunction()">
-                  <img src="./img/Commercial/Commercial.png" alt="Commercial" class="mx-auto d-block zoom" alt="Avatar" id="mainimg">
-            </div>
-            <div class="col-sm-6">
-              <h2>Wedding</h2>
-                <a href="index.html">
-                <img src="./img/Wedding.PNG" alt="Wedding" class="mx-auto d-block zoom" alt="Avatar" id="mainimg">
-            </div>
+        </div> 
+      </div>
+
+      <!-- ====================== 4th Tab & 2nd Oval images =================== -->
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>Commercial</h2>
+              <a onclick="myFunction()"></a>
+                <img src="./img/Commercial/Commercial.png" alt="Commercial" class="mx-auto d-block zoom" alt="Avatar" id="mainimg"></img>
+          </div>
+          <div class="col-sm-6">
+            <h2>Wedding</h2>
+              <a href="index.html"></a>
+              <img src="./img/Wedding.PNG" alt="Wedding" class="mx-auto d-block zoom" alt="Avatar" id="mainimg"></img>
           </div>
         </div>
-<!--###################################################################################-->
-      <!-- Below are the bottom & copyright info -->
+      </div>
+
+      <!-- ====================== 4th Tab & 3rd the bottom & copyright info =================== -->
       <p class="copyright">
        © 2019 Odi Jin Photography. All rights reserved
       </p>
     </div>
 
+    <!--#################################### 5th Tab => NEWS ##############################-->
+    <div id="NEWS" class="tabcontent1">
+      <h3>NEWS</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
 
+    <!--#################################### 6th Tab => CONTACT ###########################-->
+    <div id="CONTACT" class="tabcontent1">
+      <h3>CONTACT</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
 
-<!--###################################################################################-->
+    <!--############################## Load Scripts ####################################-->
     <!-- This block of code are use to connect to the javascript for 1st tabs -->
     <script type = "text/javascript" src = "fullPages.js" >     
     </script>
-     
+       
   </body>
 </html> 
