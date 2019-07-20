@@ -52,7 +52,7 @@ body, html {
 }
 
 /* those ID controls the backgroud color of the tabs */
-#BIO {background-image: url("./img/background/bg-BIO.jpg");}
+#BIO {background-image: url("./img/background/bg-BIO2.jpg");}
 #INTERVIEW {background-image: url("./img/background/bg-INTERVIEW.jpg");}
 #PORTFOLIO {background-image: url("./img/background/bg-PORTFOLIOFashion.jpg");}
 #SLIDESHOW {background-image: url("./img/background/bg-SLIDESHOW.jpg");}
@@ -151,3 +151,4 @@ p{
 #mainimg{
   border-radius: 50%;
 }
+

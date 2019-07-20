@@ -5,11 +5,12 @@
 /* this covers the whole page, but at the bottom */
 body, html {
   width: 100%;
-  height: 100%;
+  height: 133%;
   margin: 0;
   font-family: Arial;
   background-attachment: fixed;
   text-align: center;
+
 }
 
 /* Tab links style, it controls default color of the tab */
@@ -53,7 +54,7 @@ body, html {
 }
 
 /* those ID controls the backgroud color of the tabs */
-#BIO {background-image: url("./img/background/bg3.jpg");}
+#BIO {background-image: url("./img/background/bg-BIO2.jpg");}
 #INTERVIEW {background-image: url("./img/background/bg-INTERVIEW.jpg");}
 #PORTFOLIO {background-image: url("./img/background/bg-PORTFOLIOFashion.jpg");}
 #SLIDESHOW {background-image: url("./img/background/bg-SLIDESHOW.jpg");}
@@ -106,6 +107,7 @@ h2{
   color: white;
   font-size: 50px; 
   font-family: Acme;
+  padding: 3px;
 }
 
 p{
@@ -115,7 +117,6 @@ p{
 .copyright{
   font-size: 15px;
   text-align: center;
-  padding-bottom: 25px;
 }
 
 .navbar{
@@ -152,4 +153,26 @@ p{
 
 #mainimg{
   border-radius: 50%;
+}
+
+div.background {
+  background-attachment: fixed;
+  border: 1px solid black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+div.transbox {
+  padding: 100px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox{
+  font-weight: bold;
+  color: #000000;
 }
